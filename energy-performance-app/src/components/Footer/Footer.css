@@ -9,7 +9,7 @@
   align-items: center;
   height: 10vh;
   z-index:100;
-  background-color: grey;
+  background-color: white;
 }
 
 content{
@@ -18,14 +18,23 @@ content{
   align-items: center;
 }
 
-h2 {  
-font-size: 1.4em;
-  color: white;
+.title {  
+  font-size: 1.4em;
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.contact{
+    size: 1em;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 70px;
+    padding:15px;
+    font-size:larger;
+}
+
 .fnavItems{
-  color:white;
+  color:black;
   font-size: medium;
   list-style-type: none;
   flex-direction: row;
