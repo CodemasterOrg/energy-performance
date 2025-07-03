@@ -1,4 +1,6 @@
 .footer{
+    margin-left:3em;
+    margin-right:3em;
   padding-left: 15px;
   padding-right: 25px;
   padding-top:10vh;
@@ -37,7 +39,7 @@ content{
   color:black;
   font-size: medium;
   list-style-type: none;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: end;
   align-items: center;
   display: flex;
