@@ -9,7 +9,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
   z-index:100;
   background-color: white;
 }
@@ -50,6 +49,4 @@ content{
 .item{
 padding: 2px;
 font-size:1.0em;
-  /* border-style:solid; */
-
 }
