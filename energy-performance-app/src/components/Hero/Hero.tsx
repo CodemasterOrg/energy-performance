@@ -1,6 +1,3 @@
-// import React, { FC } from 'react';
-// import { HeroWrapper } from './Hero.styled';
-
 import type { FC } from "react";
 import video from '../../assets/Video_Energy_Windmill.mp4'
 import './Hero.css'

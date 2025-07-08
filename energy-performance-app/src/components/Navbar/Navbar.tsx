@@ -1,6 +1,3 @@
-// import React, { FC } from 'react';
-// import { HeroWrapper } from './Hero.styled';
-
 import type { FC } from "react";
 import './Navbar.css'
  import { HiLightningBolt } from "react-icons/hi";

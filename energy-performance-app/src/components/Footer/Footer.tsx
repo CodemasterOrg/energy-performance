@@ -1,4 +1,3 @@
-
 import type { FC } from "react";
 import './Footer.css'
  import { HiLightningBolt } from "react-icons/hi";
