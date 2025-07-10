@@ -39,3 +39,11 @@ font-size: 1.4em;
 padding: 2px;
 font-size:1.0em;
 }
+
+.item:hover{
+text-decoration: underline;}
+
+.navItems a {
+  text-decoration: none;
+  color: inherit;
+}
