@@ -1,15 +1,16 @@
 import './App.css'
-import Footer from './components/Footer/Footer'
-import Hero from './components/Hero/Hero'
-import Navbar from './components/Navbar/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home/Home'
+import Overview from './components/Overview/Overview'
+
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <Footer/>
-    </>
+     <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/overview" element={<Overview />} />
+      {/* <Route path="*" element={<h1>NOT FOUND 404</h1>}> */}
+    </Routes>
   )
 }
 
