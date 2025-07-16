@@ -7,8 +7,8 @@ function Overview() {
   return (
     <>
     <Navbar/>
-    <Table/>
     <h1>Overview component</h1>
+    <Table/>
 
     <Footer/>
     </>
