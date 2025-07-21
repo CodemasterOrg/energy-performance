@@ -6,7 +6,7 @@ import Table from '../Table/Table'
 function Overview() {
   return (
     <>
-    <Navbar/>
+    <Navbar blueBackground={true}/>
     <h1>Overview component</h1>
     <Table/>
 

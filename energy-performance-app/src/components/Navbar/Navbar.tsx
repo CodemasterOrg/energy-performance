@@ -4,9 +4,12 @@ import './Navbar.css'
  import { Link } from 'react-router-dom'
 
 
+interface NavbarProps {
+  blueBackground?: boolean;
+}
 
-const Navbar: FC = () => (
-  <div className="navbar">
+const Navbar: FC<NavbarProps> = ({ blueBackground = false }) => (
+  <div className={`navbar ${blueBackground ? 'blue-bg' : ''}`}>
     <h2><HiLightningBolt size={18}/>
 Energy Performance</h2>
     <ul className="navItems">
