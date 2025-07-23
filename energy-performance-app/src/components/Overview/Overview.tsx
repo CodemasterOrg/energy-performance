@@ -7,7 +7,7 @@ function Overview() {
   return (
     <>
     <Navbar blueBackground={true}/>
-    <h1>Overview component</h1>
+    <h1 className="title">Overview component</h1>
     <Table/>
 
     <Footer/>
