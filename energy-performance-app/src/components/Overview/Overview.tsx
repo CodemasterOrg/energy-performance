@@ -1,18 +1,17 @@
-import './Overview.css'
-import Footer from '../Footer/Footer'
-import Navbar from '../Navbar/Navbar'
-import Table from '../Table/Table'
+import "./Overview.css";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
+import Table from "../Table/Table";
 
 function Overview() {
   return (
     <>
-    <Navbar blueBackground={true}/>
-    <h1 className="title">Overview component</h1>
-    <Table/>
-
-    <Footer/>
+      <Navbar blueBackground={true} />
+      <h1 className="title">Overview component</h1>
+      <Table />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default Overview
+export default Overview;

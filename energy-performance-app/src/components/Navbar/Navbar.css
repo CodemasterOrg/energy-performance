@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   padding-left: 15px;
   padding-right: 25px;
   display: flex;
@@ -6,9 +6,9 @@
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  z-index:100;
+  z-index: 100;
   background-color: transparent;
-border-bottom: 1px solid rgba(211, 211, 211, 0.3);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.3);
 }
 
 .navbar.blue-bg {
@@ -16,43 +16,45 @@ border-bottom: 1px solid rgba(211, 211, 211, 0.3);
   border-bottom: 1px solid lightgray;
 }
 
-content{
+content {
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.header-title {  
+.header-title {
   font-size: 1.4em;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: none;
 }
 
-.header-title a{
+.header-title a {
   color: white;
   text-decoration: none;
 }
 
-.navItems{
-  color:white;
+.navItems {
+  color: white;
   font-size: medium;
   list-style-type: none;
   flex-direction: row;
   justify-content: end;
   align-items: center;
   display: flex;
-  gap:1.4em;
-  border:1px;
+  gap: 1.4em;
+  border: 1px;
 }
 
-.item{
-padding: 2px;
-font-size:1.0em;
+.item {
+  padding: 2px;
+  font-size: 1em;
 }
 
-.item:hover{
-text-decoration: underline;}
+.item:hover {
+  text-decoration: underline;
+}
 
 .navItems a {
   text-decoration: none;

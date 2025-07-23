@@ -1,55 +1,56 @@
-.footer{
-    margin-left:3em;
-    margin-right:3em;
+.footer {
+  margin-left: 3em;
+  margin-right: 3em;
   padding-left: 15px;
   padding-right: 25px;
-  padding-top:10vh;
-  padding-bottom:10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index:100;
+  z-index: 100;
   background-color: white;
 }
 
-content{
+content {
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.footer-title {  
+.footer-title {
   font-size: 1.4em;
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.footer-title a{
-  color:black;
+.footer-title a {
+  color: black;
   text-decoration: none;
 }
 
-.contact{
-    size: 1em;
-    color: black;
-    background-color: lightgrey;
-    border-radius: 70px;
-    padding:15px;
-    font-size:larger;
-    margin-left: -8.5%;
+.contact {
+  size: 1em;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 70px;
+  padding: 15px;
+  font-size: larger;
+  margin-left: -8.5%;
 }
 
-.fnavItems{
-  color:black;
+.fnavItems {
+  color: black;
   font-size: medium;
   list-style-type: none;
   flex-direction: column;
   justify-content: end;
   align-items: center;
   display: flex;
-  gap:1.4em;
-  border:1px;
+  gap: 1.4em;
+  border: 1px;
 }
 
 .fnavItems a {
@@ -57,7 +58,7 @@ content{
   color: inherit;
 }
 
-.item{
-padding: 2px;
-font-size:1.0em;
+.item {
+  padding: 2px;
+  font-size: 1em;
 }
