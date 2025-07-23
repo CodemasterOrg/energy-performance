@@ -22,10 +22,16 @@ content{
   align-items: center;
 }
 
-h2 {  
-font-size: 1.4em;
+.header-title {  
+  font-size: 1.4em;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: none;
+}
+
+.header-title a{
+  color: white;
+  text-decoration: none;
 }
 
 .navItems{

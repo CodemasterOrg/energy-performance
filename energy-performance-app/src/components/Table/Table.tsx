@@ -24,7 +24,7 @@ const Table: FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('https://api.energidataservice.dk/dataset/PowerSystemRightNow?limit=500') // henter nok til nogle timer
+    fetch('https://api.energidataservice.dk/dataset/PowerSystemRightNow?limit=500') 
       .then((res) => {
         if (!res.ok) throw new Error('Fejl i API-kaldet');
         return res.json();
@@ -77,10 +77,10 @@ const Table: FC = () => {
           {data.map((row, idx) => (
             <tr key={idx}>
                 <td>{new Date(`${row.hour}:00:00Z`).toLocaleString()}</td>
-<td>{row.OffshoreWindPower.toLocaleString('da-DK')}</td>
-              <td>{row.OnshoreWindPower.toLocaleString('da-DK')}</td>
-<td>{row.SolarPower.toLocaleString('da-DK')}</td>
-<td>{row.Exchange_Sum.toLocaleString('da-DK')}</td>
+                <td>{row.OffshoreWindPower.toLocaleString('da-DK')}</td>
+                <td>{row.OnshoreWindPower.toLocaleString('da-DK')}</td>
+                <td>{row.SolarPower.toLocaleString('da-DK')}</td>
+                <td>{row.Exchange_Sum.toLocaleString('da-DK')}</td>
             </tr>
           ))}
         </tbody>

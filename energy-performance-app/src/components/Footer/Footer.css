@@ -25,6 +25,11 @@ content{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.footer-title a{
+  color:black;
+  text-decoration: none;
+}
+
 .contact{
     size: 1em;
     color: black;
@@ -45,6 +50,11 @@ content{
   display: flex;
   gap:1.4em;
   border:1px;
+}
+
+.fnavItems a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .item{

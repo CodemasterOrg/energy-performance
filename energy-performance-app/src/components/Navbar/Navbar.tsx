@@ -10,8 +10,7 @@ interface NavbarProps {
 
 const Navbar: FC<NavbarProps> = ({ blueBackground = false }) => (
   <div className={`navbar ${blueBackground ? 'blue-bg' : ''}`}>
-    <h2><HiLightningBolt size={18}/>
-Energy Performance</h2>
+    <h2 className="header-title"><HiLightningBolt size={18} /><Link to="/">Energy Performance</Link></h2>
     <ul className="navItems">
       <li className="item"><Link to="/">Home</Link></li>
       <li className="item"><Link to="/overview">Overview</Link></li>
