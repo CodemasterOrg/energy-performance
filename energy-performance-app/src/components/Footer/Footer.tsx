@@ -48,7 +48,7 @@ const Footer: FC = () => {
       </ul>
 
       <dialog ref={dialogRef}>
-        <h2>Write to this mail:</h2>
+        <h2>Write to this e-mail:</h2>
         <br></br>
         <p>hello@energyperformance.com</p>
 
