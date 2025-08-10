@@ -1,5 +1,24 @@
 import type { FC } from "react";
+import { BarChart } from "@mui/x-charts/BarChart";
 
-const Graphs: FC = () => <h1>Graphs test</h1>;
+const Graphs: FC = () => (
+  <>
+    <h1>Graphs test</h1>;
+    <BarChart
+      xAxis={[
+        {
+          id: "barCategories",
+          data: ["bar A", "bar B", "bar C"],
+        },
+      ]}
+      series={[
+        {
+          data: [2, 5, 3],
+        },
+      ]}
+      height={300}
+    />
+  </>
+);
 
 export default Graphs;
