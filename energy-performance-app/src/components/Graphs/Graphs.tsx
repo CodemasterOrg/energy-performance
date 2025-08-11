@@ -3,7 +3,7 @@ import { BarChart } from "@mui/x-charts/BarChart";
 
 const Graphs: FC = () => (
   <>
-    <h1>Graphs test</h1>;
+    <h1>Graphs</h1>;<h2>Energy production today</h2>
     <BarChart
       xAxis={[
         {
