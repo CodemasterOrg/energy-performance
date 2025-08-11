@@ -8,7 +8,7 @@ const Graphs: FC = () => (
       xAxis={[
         {
           id: "barCategories",
-          data: ["bar A", "bar B", "bar C"],
+          data: ["Solar", "Wind", "Water"],
         },
       ]}
       series={[
