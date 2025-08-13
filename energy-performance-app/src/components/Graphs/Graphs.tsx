@@ -2,6 +2,8 @@ import type { FC } from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 import "./Graphs.css";
 
+//WORK UNDER PROCESS
+
 const Graphs: FC = () => (
   <>
     <h1>Graphs</h1>
